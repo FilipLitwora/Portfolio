@@ -8,3 +8,12 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+#root {
+  user-select: none;
+}
+.hero {
+  background-image: url(/hero.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

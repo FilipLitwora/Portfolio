@@ -1,0 +1,15 @@
+<svg width="750" height="287" viewBox="0 0 750 287" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="hero 1" clip-path="url(#clip0)">
+<path id="dashed" d="M-27.957 77C-13.8682 112.06 21.7553 170.687 98.8421 123.933C204.731 59.711 246.16 189.5 365.5 189.5C489 186 523.495 85.841 632.393 95.438C741.291 105.035 777.922 235.121 794 253" stroke="#898A9B" stroke-dasharray="5 5"/>
+<path id="secondary" d="M-11.5176 53C16.0954 111.489 82.7504 343.387 316.257 184.182C543 9 742.212 195.88 763.177 241" stroke="#383A5A" stroke-width="3"/>
+<path id="primary" d="M-67 196.309C-52.8918 161.127 15.1593 112.208 92.8371 112.208C186.947 112.208 239.23 272 352.759 272C466.288 272 548.448 126.505 616.167 66.7935C683.886 7.0817 739.157 -4.27192 775.506 -11" stroke="#FF3D6D" stroke-width="3"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="750" height="287" fill="white"/>
+</clipPath>
+</defs>
+<style type="text/css">
+
+</style>
+</svg>

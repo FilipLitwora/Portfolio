@@ -1,14 +1,27 @@
 import { Layout } from "../components/Layout";
+import dynamic from "next/dynamic";
+import Home from "../components/Home";
 
-const IndexPage = () => (
-  <Layout title="Home | Filip Litwora">
-    <div className="min-h-screen text-white bg-black">
-      <div className="pt-10 ml-10">
-        <h1 className="text-3xl">Hello 👋</h1>
-        <p>Coming soon...</p>
+// kohost.io
+// eleken.co
+
+const IndexPage = () => {
+  //make nextjs see `window`
+  const Navbar = dynamic(
+    () => {
+      return import("../components/Navbar");
+    },
+    { ssr: false }
+  );
+
+  return (
+    <Layout title="Home | Filip Litwora">
+      <div className="min-h-screen text-text-secondary bg-color-1">
+        <Navbar />
+        <Home />
       </div>
-    </div>
-  </Layout>
-);
+    </Layout>
+  );
+};
 
 export default IndexPage;
